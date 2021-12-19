@@ -90,17 +90,17 @@ const setIframe = (() => {
 })();
 
 /** Musica */
-const reproductorMusica = new Reproductor('https://www.youtube.com/embed/88fj0np8Qos', 'musica');
+const reproductorMusica = new Reproductor('https://www.youtube.com/embed/Sw8_fWj_5oQ', 'musica');
 reproductorMusica.playMultimedia();
-reproductorMusica.setInicio('120');
+reproductorMusica.setInicio('20');
 
 /** Pelicula */
-const reproductorPeliculas = new Reproductor('https://www.youtube.com/embed/88fj0np8Qos', 'peliculas');
+const reproductorPeliculas = new Reproductor('https://www.youtube.com/embed/ZYzbalQ6Lg8', 'peliculas');
 reproductorPeliculas.playMultimedia();
 reproductorPeliculas.setInicio('150');
 
 /** Serie */
-const reproductorSeries = new Reproductor('https://www.youtube.com/embed/88fj0np8Qos', 'series');
+const reproductorSeries = new Reproductor('https://www.youtube.com/embed/VBXJzYwR5h4', 'series');
 reproductorSeries.playMultimedia();
 reproductorSeries.setInicio('130');
 
